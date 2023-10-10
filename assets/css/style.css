@@ -1,0 +1,164 @@
+/* Desptop view */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+
+/* apply styles to <header> */
+header {
+    background-color: gray;
+    padding: 10px;
+}
+
+.search {
+    float: right;
+}
+
+#results .name {
+    width: 100%;
+    padding: 10px 0;
+    text-align: left;
+    background-color: white;
+    list-style-type: none;
+    max-width: 1250px;
+    margin: auto;
+    padding: 20px;
+}
+
+header h1 {
+    display: inline;
+    text-decoration: none;
+    color: black;
+}
+
+header a {
+    text-decoration: none;
+}
+
+.search input {
+    width: 700px;
+    height: 35px;
+    padding: 10px;
+}
+
+.pages{ 
+    display: none;     
+   } 
+
+   #list{ 
+    margin-left: 90px;
+    background-color: white;
+   } 
+
+.btn {
+    width: 70px;
+    height: 35px;
+    margin-left: -25px;
+}
+
+/* apply styles to <nav> */
+nav {
+    background-color: darkgray;
+    text-align: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    padding: 20px;
+}
+
+.dropbtn {
+    background-color: darkgray;
+    color: black;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+
+  .dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: gray;}
+
+/* apply styles to <main> */
+main {
+    background-color: white;
+    max-width: 1250px;
+    margin: auto;
+    min-height: 550px;
+    padding: 20px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.col-3 {
+    flex-basis: 33.3%;
+    text-align: center;
+    padding: 20px;
+}
+
+/* apply styles to <footer> */
+footer {
+    background-color: gray;
+    min-height: 100px;
+}
+
+/* Tablet view */
+@media screen and (max-width: 768px) {
+    /* apply styles to <header> */
+    .search input {
+        width: 200px;
+    }
+
+    /* apply styles to nav */
+    nav {
+        display: none;
+    }
+   
+  }
+
+/* Mobile View */
+@media screen and (max-width: 500px) {
+ 
+    
+  }
+
