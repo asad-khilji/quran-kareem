@@ -113,6 +113,7 @@ const createOl = () => {
   <ol id='list'> 
         <a href="page-1.html"><li class="pages">Page 1</li></a>
         <a href="page-2.html"><li class="pages">Page 2</li></a>
+        <a href="page-3.html"><li class="pages">Page 3</li></a>
     </ol> 
   `;
 }
